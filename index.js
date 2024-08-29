@@ -10,10 +10,10 @@ const port = process.env.PORT || 3000;
 
 // Middleware
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://fascinating-frangollo-17c51a.netlify.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: true, // If you need to send cookies
+    credentials: true,
   };
   
   app.use(cors(corsOptions));
